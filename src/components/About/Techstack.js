@@ -10,13 +10,18 @@ import {
   DiJava,
 } from "react-icons/di";
 import {
-  SiNextdotjs,SiMysql 
+  SiNextdotjs, SiMysql, SiDocker, SiTypescript, SiGraphql, SiRedux
 } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -41,6 +46,18 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGraphql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
     </Row>
   );

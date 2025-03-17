@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C, C++ and Javascript </b>
+                <b className="purple"> C, Java, C++ and Javascript </b>
               </i>
               <br />
               <br />
@@ -32,13 +32,13 @@ function Home2() {
                 <b className="purple">Web sites </b> and
                 especially{" "}
                 <b className="purple">
-                  Front-End Domain
+                  Front-End stuffs
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also try my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I have also developed my backend skills with
+              <b className="purple"> Node.js and MongoDB</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -49,6 +49,18 @@ function Home2() {
               <i>
                 <b className="purple"> React.js and Next.js</b>
               </i>
+              <br />
+              <br />
+              Recently, I have expanded my expertise to include:
+              <i>
+                <b className="purple"> Docker, TypeScript, and Next.JS</b>
+              </i>, along with experience in
+              <i>
+                <b className="purple"> REST APIs</b>
+              </i> and
+              <i>
+                <b className="purple"> Redux Toolkit</b>
+              </i> for efficient state management.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
